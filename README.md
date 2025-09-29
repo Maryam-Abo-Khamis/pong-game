@@ -4,6 +4,7 @@ A simple yet fun implementation of the classic Pong game!
 Built for nostalgia and endless fun ⚡  
 
 ---
+## [live Demo](https://maryam-abo-khamis.github.io/pong-game/)
 
 ## ✨ Features  
 - 🎮 Two-player mode – play with a friend on the same keyboard.  
