@@ -4,7 +4,7 @@ A simple yet fun implementation of the classic Pong game!
 Built for nostalgia and endless fun ⚡  
 
 ---
-## [live Demo](https://maryam-abo-khamis.github.io/pong-game/)
+## 🔗[live Demo](https://maryam-abo-khamis.github.io/pong-game/)
 
 ## ✨ Features  
 - 🎮 Two-player mode – play with a friend on the same keyboard.  
@@ -25,4 +25,4 @@ Built for nostalgia and endless fun ⚡
 ## 🚀 Installation  
 1. Clone the repository:  
    `bash
-   git clone https://github.com/your-username/pong.git
+   git clone (https://github.com/Maryam-Abo-Khamis/pong-game/)
