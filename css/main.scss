@@ -1,0 +1,74 @@
+//variables
+$back-ground-color:#eee;
+$game-color:#16263c;
+$line-computer:yellow;
+$line-player:red;
+$color-ball:#ffa200;
+*{
+  margin:0;
+  padding: 0;
+}
+@media (max-width:800px) {
+  .game .container{
+    width: 500px !important;
+    height: 250px !important;
+  }
+  
+}
+@media (max-width:600px) {
+  .game .container{
+    width: 300px !important;
+    height: 200px !important;
+  }
+   .game .line{
+      width: 15px !important;
+  }
+  .game .ball {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  
+}
+.page{
+  width: 100%;
+  height: 100vh;
+  background-color:$back-ground-color;
+    .game {
+      padding: 100px;
+      .container{
+        width: 600px;
+        height: 370px;
+        display: flex;
+        padding: 0 2px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        background-color:$game-color;
+        outline: 6px double #3F51B5;
+        position: relative ;
+       .line {
+          width: 20px;
+          height:calc(100% / 3);;
+          border: none;
+          position: absolute;
+          &.computer{
+            background-color: $line-computer;
+          }
+          &.player{
+            background-color: $line-player;
+            top: 36%;
+            right: 2px;
+          }
+       }
+        .ball{
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          background-color: $color-ball;
+          position: absolute;
+          top:48%;
+          left: 3.5%;
+        }
+  
+    }}
+}
